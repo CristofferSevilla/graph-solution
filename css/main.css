@@ -1,15 +1,31 @@
 body {
   --main: #F6A117;
+  --fg: #000;
 
-  color: #000;
+  max-width: 1080px;
+  margin: 5em auto;
+
+  color: var(--fg);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 193.939% */
   letter-spacing: -0.66px;
+  text-align: justify-all;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  color: var(--fg);
+  text-decoration: none;
+  padding: 1em;
+}
 
 h1 {
   font-size: 74px;
@@ -38,7 +54,7 @@ h1 {
   justify-content: space-between;
 }
 
-#illustration:last-child {
+#illustration .bigger {
   font-size: 70px;
   letter-spacing: -0.7px;
 }
@@ -46,6 +62,11 @@ h1 {
 fieldset {
   border: 2px solid var(--main);
   border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  justify-items: center;
+  gap: 1em;
 }
 
 .columns {
