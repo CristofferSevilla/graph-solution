@@ -12,7 +12,8 @@ body {
   font-weight: 400;
   line-height: 32px; /* 193.939% */
   letter-spacing: -0.66px;
-  text-align: justify-all;
+  /*text-align: justify;*/
+  /*text-justify: auto;*/
 }
 
 nav {
@@ -28,17 +29,17 @@ nav a {
 }
 
 h1 {
-  font-size: 74px;
+  font-size: 66px;
   color: var(--main);
   font-style: normal;
   font-weight: 900;
-  line-height: 82px; /* 110.811% */
+  line-height: 77px; /* 110.811% */
+  text-align: center;
+  margin: 1em 0;
 }
 
 #illustration {
   font-family: "Roboto-Bold", sans-serif;
-
-  background: url("../img/color-fume.jpeg") 0 0 / cover no-repeat;
 
   text-transform: uppercase;
   color: #de466c;
@@ -53,6 +54,58 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 }
+/* Clip text element */
+.clip-text {
+  --padding: 1em;
+  --radius: 0.5em;
+
+  font-size: 6em;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  padding: var(--padding) calc(var(--padding) + 1em);
+  text-align: center;
+  /* Color fallback */
+  color: #fff;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  background: url("../img/intro-bg.png");
+}
+
+
+.clip-text:before,
+.clip-text:after {
+  position: absolute;
+  content: '';
+}
+
+/* Background */
+.clip-text:before {
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+  /*border-radius: 10px ;*/
+
+  border-radius: calc(var(--radius) + var(--padding));
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+  position: absolute;
+  z-index: -1;
+  top: var(--padding);
+  right: var(--padding);
+  bottom: var(--padding);
+  left: var(--padding);
+  background-color: #000;
+  border-radius: var(--radius) ;
+}
+
 
 #illustration .bigger {
   font-size: 70px;
@@ -61,7 +114,7 @@ h1 {
 
 fieldset {
   border: 2px solid var(--main);
-  border-radius: 10px;
+  border-radius: 1.5em;
 
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
@@ -86,7 +139,7 @@ fieldset {
 }
 
 #contact > form {
-  width: 800px;
+  /*width: 800px;*/
   gap: 17px;
   display: flex;
   flex-direction: column;
