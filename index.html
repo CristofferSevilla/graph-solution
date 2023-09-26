@@ -45,20 +45,30 @@
   <div id="illustration" class="clip-text">
     <p>Science is what matters, leave the design to us.</p>
     <p class="bigger">
-      Logos Visual identities Brand designs UI/UX consultancy Illustrations Videos Animations Bespoke presentations
-      Templates Posters Office signage ...
+      <span class="tag">Logos</span>
+      <span class="tag">Visual identities </span>
+      <span class="tag">Brand designs</span>
+      <span class="tag">UI/UX consultancy</span>
+      <span class="tag">Illustrations </span>
+      <span class="tag">Videos </span>
+      <span class="tag">Animations </span>
+      <span class="tag">Bespoke presentations</span>
+      <span class="tag">Templates Posters</span>
+      <span class="tag">Office signage ...</span>
     </p>
   </div>
 
 </section>
 
-<fieldset id="institutions" style="margin-top: 3em; padding: 1em">
+<fieldset id="institutions" style="margin-top: 3em; padding: 1em" class="last-centered">
   <legend>Institutions we have worked with include</legend>
   <img src="img/institutions/Peking.png" alt="Pecking University Health Science Center">
   <img src="img/institutions/Essex.png" alt="University of Essex">
   <img src="img/institutions/OHSU.svg" alt="OHSU">
-  <img src="img/institutions/NYU.svg" alt="NYU Langone Medical Center">
   <img src="img/institutions/OICR.svg" alt="Ontario Institute for Cancer Research">
+  <img src="img/institutions/EMBL-EBI.svg"
+       alt="European Molecular Biology Laboratory - European Bioinformatics Institute">
+  <img src="img/institutions/NYU.svg" alt="NYU Langone Medical Center">
   <img src="img/institutions/ARU.png" alt="Anglia Ruskin University">
 </fieldset>
 
@@ -68,48 +78,48 @@
   <h1>Visual materials for impactful content</h1>
   <div class="grid">
 
-<!--    <div class="row">-->
-      <img src="img/work/IntAct.png" style="height: fit-content; max-width: 100%">
-      <div class="description">
-        <p>IntAct is _</p>
-        <div style="padding-left: 4em">
-          <p>
-            a free and open source database system that provides analysis tools for molecular interaction data.<br>
-            data, taken from experiments and papers, shown in the highest detail.<br>
-          </p>
-
-          <p>
-            manually added value that gives solid information based on evidence.<br>
-            a repository that takes information from natural language and transforms it into searchable data.<br>
-            a road map of the cell; its wireframe.<br>
-            interactions in great deep detail.<br>
-            the essence of life.<br>
-          </p>
-        </div>
-
-
-        <p> IntAct _</p>
-        <div style="padding-left: 4em">
-          <p>
-            wants to have a stronger image.<br>
-            by updating the resource.<br>
-            focusing on quality data, content, imagery and UX.<br>
-          </p>
-        </div>
-
+    <!--    <div class="row">-->
+    <img src="img/work/IntAct.png" style="height: fit-content; max-width: 100%">
+    <div class="description">
+      <p>IntAct is _</p>
+      <div style="padding-left: 4em">
         <p>
-          IntAct’s team gave a fantastic brief full of strong images of their own view on the project, what their passions
-          are and their targets for short and long terms.
+          a free and open source database system that provides analysis tools for molecular interaction data.<br>
+          data, taken from experiments and papers, shown in the highest detail.<br>
         </p>
 
         <p>
-          ‘Manually-curated data based in evidence’ and ‘depth-in-detail’ are the foundational concepts in which to build
-          this
-          rebranding for these are what make IntAct stand out and what it should be recognised for.
+          manually added value that gives solid information based on evidence.<br>
+          a repository that takes information from natural language and transforms it into searchable data.<br>
+          a road map of the cell; its wireframe.<br>
+          interactions in great deep detail.<br>
+          the essence of life.<br>
         </p>
       </div>
-<!--    </div>-->
-<!--    <div class="row">-->
+
+
+      <p> IntAct _</p>
+      <div style="padding-left: 4em">
+        <p>
+          wants to have a stronger image.<br>
+          by updating the resource.<br>
+          focusing on quality data, content, imagery and UX.<br>
+        </p>
+      </div>
+
+      <p>
+        IntAct’s team gave a fantastic brief full of strong images of their own view on the project, what their passions
+        are and their targets for short and long terms.
+      </p>
+
+      <p>
+        ‘Manually-curated data based in evidence’ and ‘depth-in-detail’ are the foundational concepts in which to build
+        this
+        rebranding for these are what make IntAct stand out and what it should be recognised for.
+      </p>
+    </div>
+    <!--    </div>-->
+    <!--    <div class="row">-->
     <div class="description">
       <p>
         Reactome is an open-source, open access, manually curated and peer-reviewed pathway database. Its goal is to
@@ -128,7 +138,7 @@
       </p>
     </div>
     <img src="img/work/Reactome.png" style="height: fit-content; max-width: 100%">
-<!--    </div>-->
+    <!--    </div>-->
 
 
   </div>
@@ -150,7 +160,7 @@
   <div>
     <div style="position:relative;padding-top:56.25%;">
       <iframe src="https://www.youtube.com/embed/897iLPCMarw?si=Cz_mWze3v79Wf2cq"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; autoplay; encrypted-media; picture-in-picture"
               allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
     </div>
   </div>
@@ -158,9 +168,18 @@
 </section>
 
 <section id="contact" style="padding-top: 5em">
-  <form>
+  <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+  <form action="https://postmail.invotes.com/send" method="post" id="email_form" target="hiddenFrame">
+    <input type="hidden" name="access_token" value="ilmkj7bmb7arzvkx83koeo24"/>
+
+    <input type="hidden" name="text" value="" id="message"/>
+    <input type="hidden" name="subject"/>
+
+    <input type="hidden" name="success_url" value="." />
+    <input type="hidden" name="error_url" value=".?err=1" />
+
     <div class="row">
-      <select name="title" required style="max-width: 80px">
+      <select name="title" required style="max-width: 80px" class="to-message">
         <option value="" disabled selected>Title</option>
         <option value="Dr">Dr</option>
         <option value="Ms">Ms</option>
@@ -169,19 +188,17 @@
         <option value="Mr">Mr</option>
       </select>
 
-      <input name="first-name" required type="text" placeholder="First name">
-      <input name="last-name" required type="text" placeholder="Last name">
+      <input name="first-name" required type="text" placeholder="First name" class="to-message">
+      <input name="last-name" required type="text" placeholder="Last name" class="to-message">
     </div>
 
     <div class="row">
-      <input name="company" type="text" placeholder="Company (optional)">
-      <input name="telephone" type="tel" placeholder="Telephone (optional)">
-      <input rename="email" required type="email" placeholder="Email">
+      <input name="company" type="text" placeholder="Company (optional)" class="to-message">
+      <input name="telephone" type="tel" placeholder="Telephone (optional)" class="to-message">
+      <input name="email" required type="email" placeholder="Email" class="to-message">
     </div>
 
-    <textarea name="message" placeholder="Message" class="row" style="width: auto; height: 100px">
-
-    </textarea>
+    <textarea name="message" placeholder="Message" class="row" style="width: auto; height: 100px"></textarea>
     <div class="row control">
       <button type="submit" style="max-width: fit-content">Submit</button>
     </div>
@@ -195,19 +212,19 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () {
-    ga.q.push(arguments)
-  };
-  ga.q = [];
-  ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto');
-  ga('set', 'anonymizeIp', true);
-  ga('set', 'transport', 'beacon');
-  ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+<!--&lt;!&ndash; Google Analytics: change UA-XXXXX-Y to be your site's ID. &ndash;&gt;-->
+<!--<script>-->
+<!--  window.ga = function () {-->
+<!--    ga.q.push(arguments)-->
+<!--  };-->
+<!--  ga.q = [];-->
+<!--  ga.l = +new Date;-->
+<!--  ga('create', 'UA-XXXXX-Y', 'auto');-->
+<!--  ga('set', 'anonymizeIp', true);-->
+<!--  ga('set', 'transport', 'beacon');-->
+<!--  ga('send', 'pageview')-->
+<!--</script>-->
+<!--<script src="https://www.google-analytics.com/analytics.js" async></script>-->
 </body>
 
 </html>

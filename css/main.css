@@ -63,8 +63,8 @@ h1 {
 
 /* Clip text element */
 .clip-text {
-  --padding: 1em;
-  --radius: 0.5em;
+  --padding: 40px;
+  --radius: 15px;
 
   font-size: 6em;
   font-weight: bold;
@@ -128,6 +128,9 @@ h1 {
   letter-spacing: -0.7px;
 }
 
+.tag {
+}
+
 fieldset {
   border: 2px solid var(--main);
   border-radius: 1.5em;
@@ -135,7 +138,13 @@ fieldset {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
   justify-items: center;
-  gap: 1em;
+  grid-gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-centered > *:nth-last-of-type(1) {
+  grid-column: 1 / -1;
 }
 
 .columns {
@@ -182,6 +191,7 @@ img {
   border: 0;
   padding: 6px 9px;
   height: 18px;
+  min-height: 18px;
 }
 
 #contact select {
@@ -203,6 +213,7 @@ button {
   width: 100%;
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .row.control {
