@@ -4,7 +4,7 @@ html {
 
 body {
   --main: #F6A117;
-  --fg: #000;
+  --fg: #5e433e;
 
   max-width: 1080px;
   margin: 5em auto;
@@ -47,9 +47,6 @@ h1 {
   font-family: "Roboto-Bold", sans-serif;
 
   text-transform: uppercase;
-  color: #de466c;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 
   font-size: 55px;
   font-weight: 900;
@@ -61,10 +58,11 @@ h1 {
 }
 
 
-/* Clip text element */
 .clip-text {
   --padding: 40px;
   --radius: 15px;
+  background: url("../img/intro-bg.png");
+
 
   font-size: 6em;
   font-weight: bold;
@@ -74,32 +72,32 @@ h1 {
   padding: var(--padding) calc(var(--padding) + 1em);
   text-align: center;
   /* Color fallback */
-  color: #fff;
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
-  background: url("../img/intro-bg.png");
+  color: #000;
+  border-radius: var(--radius);
+  /*-webkit-background-clip: text;*/
+  /*-webkit-text-fill-color: transparent;*/
 }
+/* Clip text element */
 
 
-.clip-text:before,
-.clip-text:after {
-  position: absolute;
-  content: '';
-}
+/*.clip-text:before,*/
+/*.clip-text:after {*/
+/*  position: absolute;*/
+/*  content: '';*/
+/*}*/
 
-/* Background */
-.clip-text:before {
-  z-index: -2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: inherit;
-  /*border-radius: 10px ;*/
+/*!* Background *!*/
+/*.clip-text:before {*/
+/*  z-index: -2;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  background-image: inherit;*/
+/*  !*border-radius: 10px ;*!*/
 
-  border-radius: calc(var(--radius) + var(--padding));
-}
+/*  border-radius: calc(var(--radius) + var(--padding));*/
+/*}*/
 
 @media (max-width: 600px) {
   .clip-text {
@@ -200,7 +198,7 @@ img {
 
 button {
   border-radius: 6px;
-  background: #F6A117;
+  background: var(--main);
   padding: 8px 21px;
   /*border: 0;*/
   font-weight: 500;
