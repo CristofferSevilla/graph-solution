@@ -23,3 +23,10 @@ form.querySelectorAll('.to-message').forEach(input => input.addEventListener('ch
       ${message.value}
     `;
 }))
+
+const hiddenFrame = document.querySelector("iframe[name='hiddenFrame']");
+
+hiddenFrame.addEventListener('load', (e) => {
+  form.innerHTML = '<h2>Message sent</h2>'
+})
+
