@@ -154,14 +154,14 @@ fieldset {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 100px;
+  gap: 80px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
   /*grid-auto-columns: minmax(min-content, auto);*/
-  grid-gap: 100px;
+  grid-gap: 80px;
 }
 
 .width-60 {
