@@ -154,7 +154,7 @@ fieldset {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 80px;
+  gap: 85px;
 }
 
 .grid {
