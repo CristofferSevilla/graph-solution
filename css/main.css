@@ -141,7 +141,7 @@ fieldset {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
   justify-items: center;
-  grid-gap: 1em;
+  grid-gap: 2em;
   align-items: center;
   justify-content: center;
 }
