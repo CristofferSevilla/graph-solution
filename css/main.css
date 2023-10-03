@@ -170,6 +170,11 @@ fieldset {
   /* Add any other styling you want for this exempted fieldset */
 }
 
+/* CSS for the fieldset with id "illustrations" */
+#illustrations img {
+  margin-bottom: 10px; /* Adjust the margin value to your preference */
+}
+
 .width-60 {
   width: 60%;
 }
