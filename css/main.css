@@ -52,7 +52,7 @@ h2 {
   color: var(--main);
   font-style: normal;
   font-weight: 600;
-  line-height: 20px; /* 110.811% */
+  line-height: 40px; /* 110.811% */
   text-align: center;
   margin: 1em 0;
 }
