@@ -210,6 +210,10 @@ fieldset {
   /* Add any other styling you want for this exempted fieldset */
 }
 
+section id"rights"{
+    margin-bottom: 100px; /* Adjust the value to control the space between sections */
+}
+
 /* CSS for the fieldset with id "illustrations" */
 #illustrations img {
   margin-bottom: 10px; /* Adjust the margin value to your preference */
