@@ -54,7 +54,17 @@ h2 {
   font-weight: 600;
   line-height: 77px; /* 110.811% */
   text-align: center;
-  margin: 0em 0;
+  margin: 1em 0;
+}
+
+h3 {
+  font-size: 10px;
+  color: var(--main);
+  font-style: normal;
+  font-weight: 100;
+  line-height: 0px; /* 110.811% */
+  text-align: center;
+  margin: 1em 0;
 }
 
 /* Change the default color of links */
