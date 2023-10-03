@@ -164,6 +164,12 @@ fieldset {
   grid-gap: 80px;
 }
 
+.no-grid {
+  /* Override grid-related properties */
+  display: block; /* Use a block-level display to remove the grid layout */
+  /* Add any other styling you want for this exempted fieldset */
+}
+
 .width-60 {
   width: 60%;
 }
