@@ -210,6 +210,10 @@ fieldset {
   /* Add any other styling you want for this exempted fieldset */
 }
 
+#mail {
+    margin-top: 50px; /* Adjust the value to create a bigger gap */
+}
+
 #contact {
     margin-bottom: 50px; /* Adjust the value to create a bigger gap */
 }
