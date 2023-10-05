@@ -179,7 +179,7 @@ fieldset {
   border-radius: 1.5em;
 
   /* Add top and bottom padding */
-  padding: 20px 0; /* Adjust the value (20px) to your preference */
+  padding: 40px 0; /* Adjust the value (20px) to your preference */
 
   /* Preserve the total width of the fieldset */
   box-sizing: border-box;
