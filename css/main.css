@@ -111,7 +111,7 @@ a:active {
 
   font-size: 6em;
   font-weight: bold;
-  line-height: 1;
+  line-height: 0;
   position: relative;
   display: inline-block;
   padding: var(--padding) calc(var(--padding) + 1em);
