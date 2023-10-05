@@ -177,12 +177,12 @@ a:active {
 fieldset {
   border: 2px solid var(--main);
   border-radius: 1.5em;
-  padding: 40px 0;
+  padding: 50px 0;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
   justify-items: center;
-  grid-row-gap: 40px;
+  grid-row-gap: 50px;
   align-items: center;
   justify-content: center;
 }
