@@ -122,6 +122,10 @@ a:active {
   /*-webkit-background-clip: text;*/
   /*-webkit-text-fill-color: transparent;*/
 }
+
+.clip-text p {
+  margin-bottom: -10px; /* Adjust the value as needed */
+}
 /* Clip text element */
 
 
