@@ -104,7 +104,7 @@ a:active {
 
 
 .clip-text {
-  --padding: 40px;
+  --padding: 20px;
   --radius: 15px;
   background: url("../img/intro-bg.png");
 
