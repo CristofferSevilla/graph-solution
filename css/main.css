@@ -104,12 +104,12 @@ a:active {
 
 
 .clip-text {
-  --padding: 20px;
+  --padding: 40px;
   --radius: 15px;
   background: url("../img/intro-bg.png");
 
 
-  font-size: 6em;
+  font-size: 5em;
   font-weight: bold;
   line-height: 1;
   position: relative;
@@ -121,10 +121,6 @@ a:active {
   border-radius: var(--radius);
   /*-webkit-background-clip: text;*/
   /*-webkit-text-fill-color: transparent;*/
-}
-
-.clip-text p {
-  margin-bottom: -20px; /* Adjust the value as needed */
 }
 /* Clip text element */
 
