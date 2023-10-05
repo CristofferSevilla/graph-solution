@@ -109,12 +109,12 @@ a:active {
   background: url("../img/intro-bg.png");
 
 
-  font-size: 1em;
+  font-size: 6em;
   font-weight: bold;
   line-height: 1;
   position: relative;
   display: inline-block;
-  padding: var(--padding) calc(var(--padding));
+  padding: var(--padding) calc(var(--padding) + 1em);
   text-align: center;
   /* Color fallback */
   color: #000;
