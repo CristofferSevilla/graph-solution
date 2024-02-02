@@ -191,7 +191,7 @@ fieldset1 {
   padding: 50px 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) );
   justify-items: center;
   grid-row-gap: 50px;
   align-items: center;
