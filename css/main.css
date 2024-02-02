@@ -198,10 +198,6 @@ fieldset {
   justify-content: center;
 }
 
-.last-centered > *:nth-last-of-type(1) {
-  grid-column: 1 / -1;
-}
-
 .columns {
   display: flex;
   flex-direction: row;
