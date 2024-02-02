@@ -198,7 +198,7 @@ a:active {
   justify-content: center;
 }
 
-fieldset .fieldset1:last-of-type {
+fieldset.fieldset1:last-child {
   grid-column: 1 / -1;
 }
 
