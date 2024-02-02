@@ -199,7 +199,7 @@ a:active {
   justify-content: center;
 }
 
-.fieldset1:last-child {
+.fieldset1:.last-centered > *:nth-last-of-type(1) {
   grid-column: 1 / -1;
 }
 
