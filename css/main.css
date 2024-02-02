@@ -185,7 +185,7 @@ a:active {
 .tag {
 }
 
-fieldset1 {
+.fieldset1 {
   border: 2px solid var(--main);
   border-radius: 1.5em;
   padding: 50px 0;
@@ -202,7 +202,7 @@ fieldset1 {
   grid-column: 1 / -1;
 }
 
-fieldset2 {
+.fieldset2 {
   border: 2px solid var(--main);
   border-radius: 1.5em;
   padding: 50px 0;
