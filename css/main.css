@@ -186,29 +186,32 @@ a:active {
 }
 
 .fieldset1 {
+  /* Styles for the first fieldset */
   border: 2px solid var(--main);
   border-radius: 1.5em;
   padding: 50px 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-items: center;
   grid-row-gap: 50px;
   align-items: center;
   justify-content: center;
 }
 
+/* Target the last fieldset with class .fieldset1 */
 fieldset.fieldset1:last-child {
   grid-column: 1 / -1;
 }
 
 .fieldset2 {
+  /* Styles for the second fieldset */
   border: 2px solid var(--main);
   border-radius: 1.5em;
   padding: 50px 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-items: center;
   grid-row-gap: 50px;
   align-items: center;
