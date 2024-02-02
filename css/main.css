@@ -198,7 +198,7 @@ a:active {
   justify-content: center;
 }
 
-.last-centered > *:nth-last-of-type(1) {
+fieldset:last-of-type {
   grid-column: 1 / -1;
 }
 
