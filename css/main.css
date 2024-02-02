@@ -197,9 +197,6 @@ a:active {
   grid-row-gap: 50px;
   align-items: center;
   justify-content: center;
-
-.last-centered > *:nth-last-of-type(1) {
-  grid-column: 1 / -1;
 }
 
 .fieldset2 {
