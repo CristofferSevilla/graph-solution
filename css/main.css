@@ -80,17 +80,17 @@ h4 {
 
 /* Change the default color of links */
 a {
-  color: #000000;
+  color: #AA701A;
 }
 
 /* Change the color of visited links */
 a:visited {
-  color: #2B2B2B;
+  color: #5E3F1B;
 }
 
 /* Change the color of links on hover */
 a:hover {
-  color: #5E3F1B;
+  color: #2B2B2B;
 }
 
 /* Change the color of active links when clicked */
