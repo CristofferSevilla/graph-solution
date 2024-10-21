@@ -588,5 +588,97 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
+/* 1. Mobile (up to 600px wide) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Smaller font size for mobile */
+        padding: 1em; /* Less padding for mobile */
+    }
+
+    h1 {
+        font-size: 40px; /* Reduce the font size of headings */
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column; /* Stack nav items vertically on mobile */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .columns {
+        flex-direction: column; /* Stack columns on top of each other */
+    }
+
+    .fieldset1, .fieldset2, .fieldset3 {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+}
+
+/* 2. Tablets and small desktops (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 15px; /* Slightly smaller font for tablets */
+        padding: 1.5em;
+    }
+
+    h1 {
+        font-size: 50px; /* Adjust the font size for tablets */
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .columns {
+        flex-direction: row; /* Keep columns in a row */
+        gap: 40px; /* Adjust the gap */
+    }
+
+    .fieldset1, .fieldset2, .fieldset3 {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+    }
+
+    nav {
+        padding: 20px; /* Adjust padding for tablets */
+    }
+}
+
+/* 3. Large desktops (1025px and up) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 16px; /* Keep the default font size for large desktops */
+        padding: 2em;
+    }
+
+    nav {
+        padding: 30px; /* Keep the default padding */
+    }
+
+    .columns {
+        flex-direction: row;
+        gap: 85px; /* Keep large gap */
+    }
+
+    .fieldset1, .fieldset2, .fieldset3 {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Keep your default grid for larger screens */
+    }
+}
+
 }
 
