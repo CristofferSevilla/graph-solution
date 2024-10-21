@@ -21,11 +21,6 @@ body {
   /*text-justify: auto;*/
 }
 
-.custom-heading {
-    color: #000; /* Change this to your desired color */
-    font-weight: bold; /* Optional: make it bold */
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -519,11 +514,11 @@ textarea {
  *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
+ *    contenteditable attribute is included anywhere else in the document.
  *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
+ *    that receive the clearfix class.
+ * 2. The use of table rather than block is only necessary if using
+ *    :before to contain the top-margins of child elements.
  */
 
 .clearfix::before,
@@ -585,7 +580,7 @@ textarea {
 
   /*
    * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
+   * or use the javascript: pseudo protocol
    */
   a[href^="#"]::after,
   a[href^="javascript:"]::after {
@@ -784,5 +779,3 @@ textarea {
         grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); /* Larger columns for fieldset3 */
     }
 }
-
-
