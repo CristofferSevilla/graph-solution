@@ -592,22 +592,22 @@ textarea {
 /* 1. Mobile (up to 600px wide) */
 @media (max-width: 600px) {
     body {
-        font-size: 14px; /* Smaller font size for mobile */
-        padding: 1em; /* Less padding for mobile */
+        font-size: 12px; /* Smaller font size for mobile */
+        padding: 0.5em; /* Less padding for mobile */
     }
 
     h1 {
-        font-size: 40px; /* Reduce the font size of headings */
-        line-height: 50px;
+        font-size: 20px; /* Reduce the font size of headings */
+        line-height: 25px;
     }
 
     h2 {
-        font-size: 28px;
-        line-height: 35px;
+        font-size: 16;
+        line-height: 18px;
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 10px;
     }
 
     nav {
@@ -628,21 +628,21 @@ textarea {
 @media (min-width: 601px) and (max-width: 1024px) {
     body {
         font-size: 15px; /* Slightly smaller font for tablets */
-        padding: 1.5em;
+        padding: 1em;
     }
 
     h1 {
-        font-size: 50px; /* Adjust the font size for tablets */
-        line-height: 60px;
+        font-size: 30px; /* Adjust the font size for tablets */
+        line-height: 40px;
     }
 
     h2 {
-        font-size: 36px;
-        line-height: 45px;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 12px;
     }
 
     .columns {
@@ -662,8 +662,13 @@ textarea {
 /* 3. Large desktops (1025px and up) */
 @media (min-width: 1025px) {
     body {
-        font-size: 16px; /* Keep the default font size for large desktops */
-        padding: 2em;
+        font-size: 66px;
+        color: var(--main);
+        font-style: normal;
+        font-weight: 900;
+        line-height: 77px; /* 110.811% */
+        text-align: center;
+        margin: 1em 0;
     }
 
     nav {
@@ -675,9 +680,16 @@ textarea {
         gap: 85px; /* Keep large gap */
     }
 
-    .fieldset1, .fieldset2, .fieldset3 {
+    .fieldset1 {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Keep your default grid for larger screens */
     }
+
+    .fieldset2 {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Keep your default grid for larger screens */
+    }
+
+    .fieldset3 {
+        grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr)); /* Keep your default grid for larger screens */
 }
 
 }
