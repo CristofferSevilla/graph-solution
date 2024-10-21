@@ -38,6 +38,11 @@ nav a {
   padding: 1em;
 }
 
+.custom-heading {
+    color: #F00; /* Change this to your desired color */
+    font-weight: bold; /* Optional: make it bold */
+}
+
 h1 {
   font-size: 36px;
   color: var(--main);
