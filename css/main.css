@@ -50,6 +50,11 @@ p {
   color: var(--fg); /* Use the defined foreground color variable */
 }
 
+/* Specific styles for the paragraph with the class "special" */
+p.special {
+    font-size: 20px;      /* Different font size */
+}
+
 h1 {
   font-size: 36px;
   color: var(--main);
