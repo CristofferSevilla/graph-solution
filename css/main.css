@@ -220,7 +220,7 @@ a:active {
   padding: 50px 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   justify-items: center;
   grid-row-gap: 50px;
   align-items: center;
