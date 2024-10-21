@@ -21,6 +21,11 @@ body {
   /*text-justify: auto;*/
 }
 
+.custom-heading {
+    color: #000; /* Change this to your desired color */
+    font-weight: bold; /* Optional: make it bold */
+}
+
 nav {
   display: flex;
   flex-direction: row;
