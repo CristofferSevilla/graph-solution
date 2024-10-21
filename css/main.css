@@ -261,12 +261,45 @@ a:active {
   margin-bottom: 10px; /* Adjust the margin value to your preference */
 }
 
+/* This class applies a width of 60% */
 .width-60 {
   width: 60%;
 }
 
+/* General image style */
 img {
   max-width: 100%;
+  height: auto;
+  display: block; /* Ensures no extra space below images */
+}
+
+/* Specific rule for responsive images */
+.responsive-img {
+  width: 100%;
+  height: auto; /* Ensures aspect ratio is maintained */
+}
+
+/* Add more specific styles for mobile screens */
+@media (max-width: 600px) {
+  /* Force the image to take the full width of the container on small screens */
+  img,
+  .responsive-img {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+  }
+}
+
+/* Contact section */
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+/* Ensure fieldsets containing images resize properly */
+.fieldset1 img, 
+.fieldset2 img, 
+.fieldset3 img {
+  width: 100%;  /* Makes sure images inside fieldsets scale */
   height: auto;
 }
 
