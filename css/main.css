@@ -45,7 +45,7 @@ nav a {
 
 p {
   font-size: 16px; /* Set the font size */
-  line-height: 1.6; /* Adjust line height for better readability */
+  line-height: 1.8; /* Adjust line height for better readability */
   margin: 1em 0; /* Add margin above and below paragraphs */
   color: var(--fg); /* Use the defined foreground color variable */
 }
