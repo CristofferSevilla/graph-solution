@@ -15,7 +15,7 @@ body {
   font-style: normal;
   font-variant-ligatures: common-ligatures;
   font-weight: 400;
-  line-height: 24px; /* 193.939% */
+  line-height: 1.5;
   letter-spacing: -0.66px;
   /*text-align: justify;*/
   /*text-justify: auto;*/
@@ -106,7 +106,7 @@ a:active {
 
   font-size: 55px;
   font-weight: 900;
-  line-height: 82px; /* 149.091% */
+  line-height: 55px;
 
   display: flex;
   flex-direction: column;
