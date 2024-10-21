@@ -694,3 +694,57 @@ textarea {
 
 }
 
+  /* General fieldset styles for all screen sizes */
+.fieldset1, .fieldset2, .fieldset3 {
+  border: 2px solid var(--main);
+  border-radius: 1.5em;
+  padding: 50px 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-row-gap: 50px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+/* Adjust the grid to be more flexible and responsive */
+
+/* 1. Mobile (up to 600px wide) */
+@media (max-width: 600px) {
+    .fieldset1, .fieldset2, .fieldset3 {
+        grid-template-columns: 1fr; /* Single column on small screens */
+        padding: 20px 10px; /* Reduce padding for small screens */
+    }
+}
+
+/* 2. Tablets and small desktops (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .fieldset1 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamic column width */
+    }
+
+    .fieldset2 {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* More compact layout for smaller elements */
+    }
+
+    .fieldset3 {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Two columns on tablet */
+    }
+}
+
+/* 3. Large desktops (1025px and up) */
+@media (min-width: 1025px) {
+    .fieldset1 {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Original setting, adapt dynamically */
+    }
+
+    .fieldset2 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Allow more columns for larger screens */
+    }
+
+    .fieldset3 {
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); /* Larger columns for fieldset3 */
+    }
+}
+
+
