@@ -52,7 +52,7 @@ p {
 
 /* Specific styles for the paragraph with the class "special" */
 p.special {
-    font-size: 20px;      /* Different font size */
+    font-size: 24px;      /* Different font size */
 }
 
 h1 {
