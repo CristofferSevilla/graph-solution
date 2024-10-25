@@ -61,9 +61,15 @@ h1 {
   color: var(--main);
   font-style: normal;
   font-weight: black;
-  line-height: 1;
+  line-height: 4;
   text-align: center;
-  margin: 3em 0;
+  margin: 1em 0;
+}
+
+h1.my-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 h2 {
