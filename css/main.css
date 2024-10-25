@@ -61,9 +61,9 @@ h1 {
   color: var(--main);
   font-style: normal;
   font-weight: black;
-  line-height: 4;
+  line-height: 1;
   text-align: center;
-  margin: 1em 0;
+  margin: 4em 0;
 }
 
 h2 {
