@@ -40,11 +40,12 @@ nav a {
 
 .custom-heading {
     color: #000; /* Change this to your desired color */
-    font-weight: thin; /* Optional: make it bold */
+    font-weight: black; /* Optional: make it bold */
 }
 
 p {
   font-size: 16px; /* Set the font size */
+  font-weight: thin;
   line-height: 1.8; /* Adjust line height for better readability */
   margin: 1em 0; /* Add margin above and below paragraphs */
   color: var(--fg); /* Use the defined foreground color variable */
