@@ -10,8 +10,8 @@ ROOT
 
 :root{
 
---background:#fafaf8;
---surface:#ffffff;
+--background:#ffffff;
+--surface:#fafaf8;
 
 --text:#111111;
 --text-light:#666666;
