@@ -713,6 +713,45 @@ height:100%;
 object-fit:cover;
 
 }
+/*======================================================
+ILLUSTRATION GRID VARIANTS
+======================================================*/
+
+.illustration-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.illustration-grid-2 a{
+
+display:block;
+
+border-radius:var(--radius);
+
+overflow:hidden;
+
+box-shadow:var(--shadow);
+
+transition:var(--transition);
+
+}
+
+.illustration-grid-2 a:hover{
+
+transform:translateY(-6px);
+
+}
+
+.illustration-grid-2 img{
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
 
 /*======================================================
 VIDEO SECTIONS
