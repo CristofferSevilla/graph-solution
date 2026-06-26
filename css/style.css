@@ -393,7 +393,7 @@ grid-template-columns:
 1fr
 1fr;
 
-gap:6rem;
+gap:4rem;
 
 align-items:center;
 
@@ -432,8 +432,6 @@ padding:.55rem 1rem;
 border-radius:999px;
 
 background:white;
-
-border:1px solid var(--border);
 
 font-size:.9rem;
 
