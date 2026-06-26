@@ -36,6 +36,63 @@ ROOT
 
 }
 
+/*======================================================
+NAVIGATION
+======================================================*/
+
+.main-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  position: relative;
+}
+
+/* DROPDOWN WRAPPER */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* BUTTON STYLE */
+.dropbtn {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* DROPDOWN PANEL */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background: white;
+  min-width: 220px;
+  padding: 12px 0;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,.08);
+  z-index: 1000;
+}
+
+/* LINKS */
+.dropdown-content a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+/* HOVER STATE */
+.dropdown-content a:hover {
+  background: var(--surface);
+}
+
+/* SHOW ON HOVER */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /*======================================================
 RESET
