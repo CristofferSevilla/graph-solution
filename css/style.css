@@ -431,8 +431,6 @@ padding:.55rem 1rem;
 
 border-radius:999px;
 
-background:white;
-
 font-size:.9rem;
 
 }
@@ -461,26 +459,6 @@ gap:3rem;
 align-items:center;
 
 margin-top:3rem;
-
-}
-
-.client-grid img{
-
-opacity:.6;
-
-filter:grayscale(100%);
-
-transition:var(--transition);
-
-}
-
-.client-grid img:hover{
-
-opacity:1;
-
-filter:none;
-
-transform:scale(1.04);
 
 }
 
