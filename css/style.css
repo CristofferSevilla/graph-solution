@@ -552,7 +552,7 @@ border-top:1px solid var(--border);
 
 .project-header{
 
-margin-bottom:4rem;
+margin-bottom:2rem;
 
 }
 
@@ -562,7 +562,7 @@ display:grid;
 
 grid-template-columns:1fr 1fr;
 
-gap:3rem;
+gap:2rem;
 
 align-items:start;
 
