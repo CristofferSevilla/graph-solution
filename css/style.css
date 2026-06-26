@@ -143,7 +143,7 @@ TYPOGRAPHY
   font-weight: 700;
   font-style: normal;
 }
-
+h1,
 h2,
 h3{
 
@@ -165,11 +165,8 @@ h1 {
 }
 
 h2{
-
-font-size:clamp(2.7rem,5vw,4.5rem);
-
-margin-bottom:1.5rem;
-
+  font-family: "August";
+  font-weight: 1000;
 }
 
 h3{
