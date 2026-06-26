@@ -319,8 +319,9 @@ bottom:-8px;
 width:0;
 
 height:2px;
-  
-background:var(--surface);
+
+background:var(--accent);
+
 
 transition:var(--transition);
 
@@ -363,7 +364,7 @@ transition:var(--transition);
 
 .button:hover{
 
-background:var(--accent);
+background:var(--text);
 
 transform:translateY(-3px);
 
