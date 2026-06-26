@@ -452,9 +452,9 @@ padding-bottom:6rem;
 
 display:grid;
 
-grid-template-columns:repeat(6,1fr);
+grid-template-columns:repeat(7,1fr);
 
-gap:3rem;
+gap:2rem;
 
 align-items:center;
 
