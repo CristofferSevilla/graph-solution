@@ -137,6 +137,13 @@ padding:8rem 0;
 TYPOGRAPHY
 ======================================================*/
 
+@font-face {
+  font-family: "August";
+  src: url("../fonts/August-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 h2,
 h3{
 
