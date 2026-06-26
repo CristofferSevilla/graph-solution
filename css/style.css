@@ -161,12 +161,14 @@ margin:0;
 
 h1 {
   font-family: "August";
-  font-weight: 2500;
+  font-size: clamp(4rem, 8vw, 7rem);
+  font-weight: 700;
 }
 
-h2{
+h2 {
   font-family: "August";
-  font-weight: 1500;
+  font-size: clamp(2.7rem, 5vw, 4.5rem);
+  font-weight: 700;
 }
 
 h3{
