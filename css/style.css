@@ -159,14 +159,9 @@ margin:0;
 
 }
 
-h1{
-
-font-family:"August-Bold";
-
-font-size:clamp(4rem,8vw,7rem);
-
-max-width:9ch;
-
+h1 {
+  font-family: "August";
+  font-weight: 700;
 }
 
 h2{
