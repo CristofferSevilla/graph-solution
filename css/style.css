@@ -573,7 +573,6 @@ SELECTED WORK / LOGOS
 
 .selected-work{
 
-background:var(--surface);
 
 border-top:1px solid var(--border);
 
@@ -587,39 +586,24 @@ display:grid;
 
 grid-template-columns:repeat(3,1fr);
 
-gap:3rem;
+gap:1rem;
 
 align-items:center;
 
-margin-top:4rem;
+margin-top:2rem;
 
 }
 
 .logo-grid img{
 
-max-height:60px;
+max-height:100px;
 
 width:100%;
 
 object-fit:contain;
 
-opacity:.7;
-
-filter:grayscale(100%);
-
-transition:var(--transition);
-
 }
 
-.logo-grid img:hover{
-
-opacity:1;
-
-filter:none;
-
-transform:scale(1.05);
-
-}
 
 /*======================================================
 ILLUSTRATIONS
